@@ -56,10 +56,18 @@
   </header>
   <main>
     <div class="game">
-      <h2>Game 1</h2>
-      <img src="game1.jpg" alt="Game 1">
-      <p>Description of Game 1</p>
-      <button>Play Game 1</button>
+ <div class="game">
+  <h2>Game 1</h2>
+  <img src="game1.jpg" alt="Game 1">
+  <p>Description of Game 1</p>
+  <button onclick="openGame1()">Play Game 1</button>
+</div>
+
+<script>
+  function openGame1() {
+    window.open("https://www.example.com/game1"); // Replace with the actual URL of the game
+  }
+</script>
     </div>
     <div class="game">
       <h2>Game 2</h2>
